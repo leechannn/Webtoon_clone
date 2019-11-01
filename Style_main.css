@@ -1,0 +1,227 @@
+#header_area{
+  width: 960px;
+  display: grid;
+  grid-template-columns: 60px 43px 20px 75px 320px 350px 50px 40px;
+  text-align: center;
+  margin: 11px 0px 0px 0px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+#naver_logo{
+  margin: 7px 1px 0px 0px;
+}
+#comic_logo{
+  margin: 3px 0px 0px 0px;
+}
+#simple_bar{
+  color: gray;
+  margin: 5px 0px 0px 0px;
+}
+#web_novel{
+  margin: 5px 30px 0px 0px;
+}
+#search_text {
+  border: 0px none;
+  color: gray;
+  font-size: 12px;
+  margin-left: 10px;
+}
+#search_window{
+  display: grid;
+  border: 1px lightgray solid;
+  grid-template-columns: 280px 20px;
+}
+#login{
+  width: 48px;
+  height: 22px;
+  border: 1px lightgray solid;
+  color: gray;
+  font-size: 13px;
+  margin: 5px 0px 0px 0px;
+}
+#service_button{
+  margin: 5px 0px 0px 5px;
+}
+#type_area{
+  width: 960px;
+  display: grid;
+  grid-template-columns: 43px 56px 100px 70px 100px 7px 80px 80px 160px 270px;
+  text-align: center;
+  margin: 0px;
+  border-bottom: 1px solid #e5e5e5;
+}
+#home_button, #best_dozeon, #my_page{
+  padding: 9px 0px 0px 0px;
+}
+#webtoon_button{
+  background-color: #00d564;
+  margin: 0px;
+  padding: 7px 0px 3px 0px;
+}
+#dozeon_comic, #danhaeng, #genre{
+  padding: 7px;
+}
+#simple_bar2{
+  color: #e5e5e5;
+  font-size: 14px;
+  margin: 7px 0px 0px 0px;
+}
+#small_ad{
+  padding: 9px 0px 0px 140px;
+}
+#ad_typo{
+  padding-top: 11px;
+  font-size: 11px;
+  color: gray;
+}
+#filter_area{
+  width: 960px;
+  display: grid;
+  grid-template-columns: 60px 60px 60px 60px 50px 90px 70px;
+  text-align: center;
+  margin: 0px;
+  border-bottom: 1px solid #e5e5e5;
+  background-color: #fafafa;
+}
+#day_button, #genre_button, #work_button, #author_button, #year_button, #complete_button{
+  padding: 6px 0px 6px 0px;
+}
+#theme_button{
+  padding: 7px 0px 6px 0px;
+}
+#main_area{
+  width: 960px;
+  display: grid;
+  grid-template-columns: 710px 250px;
+  text-align: center;
+  margin: 0px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+#content_area{
+  display: block;
+  width: 710px;
+}
+#day_select{
+  width: 700px;
+  display: grid;
+  grid-template-columns: 66px 66px 66px 66px 66px 66px 66px 66px;
+  text-align: center;
+  margin: 20px 10px 0px 0px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.someday{
+  font-size: 13px;
+  color: #606060;
+  margin-bottom: 5px;
+  padding-bottom: 3px;
+}
+#allday{
+  font-size: 13px;
+  font-weight: bold;
+  color: #00c85e;
+  margin-bottom: 0px;
+  border-bottom: 2px solid #00d564;
+}
+.boldtext{
+  font-size: 16px;
+  font-weight: bolder;
+  text-align: left;
+  margin-top: 12px;
+}
+#new_webtoon_area{
+  width: 700px;
+  display: grid;
+  grid-template-columns: 238px 238px 218px;
+}
+#new_webtoon1, #new_webtoon2, #new_webtoon3{
+  margin: 10px 20px 40px 0px;
+  font-size: 12px;
+  text-align: left;
+}
+.new_title{
+  font-weight: bold;
+}
+.new_author{
+  margin: 4px 0px 4px 0px;
+  color: #767676;
+}
+#above_webtoontext{
+  width: 700px;
+  display: grid;
+  grid-template-columns: 140px 560px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+#above{
+  margin: 9px 0px 0px 0px;
+  text-align: right;
+}
+#webtoon_list{
+  width: 700px;
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+}
+.dayofweek{
+  margin: 0px;
+  border-right: 1px #e5e5e5 solid;
+}
+.daytext{
+  font-size: 13px;
+  color: #434343;
+  font-weight: bold;
+  padding: 10px 0px 10px 0px;
+}
+.webtoon_image{
+  padding: 0px 5px 0px 5px;
+}
+.webtoon_title{
+  font-size: 11px;
+  color: #434343;
+  padding-bottom: 5px;
+}
+#today>.daytext, #today>.webtoon_title, #today>.webtoon_image{
+  color: #fdcb00;
+  background-color: #414141;
+}
+#friday{
+  border: none;
+}
+#top{
+  padding: 20px 10px 100px 0px;
+  text-align: right;
+}
+#upload_btn{
+  margin: 5px 0px 5px 0px;
+}
+#faq{
+  padding: 10px;
+  border: 1px #e5e5e5 solid;
+  font-size: 14px;
+}
+#hotrank{
+  border: 1px #e5e5e5 solid;
+  margin-bottom: 10px;
+}
+#hot_image{
+  padding: 5px 0px 5px 5px;
+  text-align: left;
+  border-bottom: 1px #e5e5e5 solid;
+}
+#arrange{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#popular{
+  padding: 5px 0px 5px 0px;
+  border-left: 1px #e5e5e5 solid;
+  border-right: 1px #e5e5e5 solid;
+}
+#update{
+  padding: 5px 0px 5px 0px;
+  border-bottom: 1px #e5e5e5 solid;
+  border-left: 1px #e5e5e5 solid;
+  border-right: 1px #e5e5e5 solid;
+}
