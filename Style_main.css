@@ -225,6 +225,9 @@
   border-left: 1px #e5e5e5 solid;
   border-right: 1px #e5e5e5 solid;
 }
+#buttom{
+  width: 960px;
+}
 #coop_btns{
   margin: 40px 40px 40px 0px;
   display: grid;
