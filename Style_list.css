@@ -123,10 +123,6 @@
   margin-bottom: 0px;
   border-bottom: 2px solid #00d564;
 }
-#top{
-  padding: 20px 10px 100px 0px;
-  text-align: right;
-}
 #upload_btn{
   margin: 5px 0px 5px 0px;
 }
@@ -209,6 +205,68 @@
   font-weight: bold;
   vertical-align: top;
 }
+#list_label{
+  display: grid;
+  grid-template-columns: 100px 400px 100px 100px;
+  width: 700px;
+  padding: 10px 0px 10px 0px;
+  color: #767676;
+  font-size: 11px;
+  border-top: 1px #b8b8b8 solid;
+  border-bottom: 1px #b8b8b8 solid;
+}
 #actual_list{
   width: 700px;
+}
+.episode{
+  display: grid;
+  grid-template-columns: 100px 390px 110px 100px;
+  padding: 10px 0px 10px 0px;
+  border-bottom: 1px #e5e5e5 solid;
+}
+.title_epi{
+  font-size: 12px;
+  padding: 15px;
+  text-align: left;
+}
+.remain{
+  font-size: 10px;
+  padding: 15px;
+}
+#page_select{
+  display: grid;
+  grid-template-columns: 180px 30px 30px 30px 30px 30px 30px 30px 30px 30px 30px 60px;
+}
+#page_select{
+  margin: 20px 0px 100px 0px;
+  font-size: 12px;
+  color: #999;
+}
+#page_select>div{
+  padding: 3px 0px 5px 0px;
+}
+#cur_page{
+  border: 1px #e0e0e0 solid;
+  font-weight: bold;
+  color: #00c85e;
+}
+#coop_btns{
+  margin: 40px 40px 40px 0px;
+  display: grid;
+  grid-template-columns: 490px 25px 400px;
+  font-size: 12px;
+  color: #333132;
+  text-align: left;
+}
+#simple_bar3{
+  border-left: #e5e5e5 1px solid;
+}
+.bold{
+  font-weight: bold;
+}
+#warning{
+  font-size: 12px;
+  text-align: left;
+  color: #999999;
+  margin-bottom: 100px;
 }
