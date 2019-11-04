@@ -98,17 +98,56 @@
   padding-bottom: 20px;
   border-bottom: 1px solid #e5e5e5;
 }
-#content_area{
-  display: block;
-  width: 710px;
-}
 #day_select{
-  width: 700px;
+  width: 960px;
   display: grid;
   grid-template-columns: 66px 66px 66px 66px 66px 66px 66px 66px;
   text-align: center;
   margin: 20px 10px 0px 0px;
   border-bottom: 1px solid #e5e5e5;
+}
+#thumbnail{
+  width: 960px;
+  display: grid;
+  margin: 25px 0px 25px 0px;
+  grid-template-columns: 220px 500px;
+}
+#detail{
+  text-align: left;
+  padding-left: 14px;
+}
+#detail>h3{
+  margin: 0px;
+}
+#yangganom{
+  font-size: 12px;
+  font-weight: normal;
+}
+.descrip{
+  color: #666;
+  margin: 10px 0px 10px 0px;
+  font-size: 12px;
+}
+#btn_group{
+  display: grid;
+  grid-template-columns: 90px 70px 110px 10px 120px;
+  list-style: none;
+  padding-left: 0px;
+}
+.btns{
+  border: 1px #b8b8b8 solid;
+  padding: 8px 10px 2px 10px;
+}
+.image_group{
+  margin: 0px;
+}
+.denma_image{
+  padding: 0px;
+  margin: 0px 30px 0px 30px;
+}
+#content_area{
+  display: block;
+  width: 710px;
 }
 .someday{
   font-size: 13px;
@@ -155,50 +194,6 @@
   border-left: 1px #e5e5e5 solid;
   border-right: 1px #e5e5e5 solid;
 }
-#notice_area{
-  width: 700px;
-  display: grid;
-  grid-template-columns: 80px 500px;
-  border: 1px #e5e5e5 solid;
-  border-top: none;
-  padding: 10px 0px 5px 0px;
-}
-#notice_text{
-  font-size: 14px;
-  text-align: left;
-}
-#thumbnail{
-  width: 700px;
-  display: grid;
-  margin: 25px 0px 25px 0px;
-  grid-template-columns: 140px 500px;
-}
-#detail{
-  text-align: left;
-  padding-left: 15px;
-}
-#detail>h2{
-  margin: 0px;
-}
-#yangganom{
-  font-size: 13px;
-  font-weight: normal;
-}
-.descrip{
-  color: #666;
-  margin: 10px 0px 10px 0px;
-  font-size: 13px;
-}
-#btn_group{
-  display: grid;
-  grid-template-columns: 90px 70px 110px 10px 120px;
-  list-style: none;
-  padding-left: 0px;
-}
-.btns{
-  border: 1px #b8b8b8 solid;
-  padding: 8px 10px 2px 10px;
-}
 #favor_num{
   font-size: 14px;
   padding-left: 5px;
@@ -228,10 +223,6 @@
   font-size: 12px;
   padding: 15px;
   text-align: left;
-}
-#link{
-  text-decoration: none;
-  color: black;
 }
 .remain{
   font-size: 10px;

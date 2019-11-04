@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>덴마 :: 네이버 만화</title>
-  <link rel="stylesheet" href="style_list.css">
+  <link rel="stylesheet" href="style_episode.css">
   <link rel="icon" href="favicons.png">
 </head>
 <body>
@@ -42,37 +42,39 @@
     <div id="theme_button"><img src="theme_button.JPG" alt=""></div>
     <div id="complete_button"><img src="complete_button.JPG" alt=""></div>
   </div>
+  <div id="day_select">
+    <div class="someday">요일전체</div>
+    <div class="someday">월요웹툰</div>
+    <div class="someday">화요웹툰</div>
+    <div class="someday">수요웹툰</div>
+    <div class="someday">목요웹툰</div>
+    <div id="allday">금요웹툰</div>
+    <div class="someday">토요웹툰</div>
+    <div class="someday">일요웹툰</div>
+  </div>
+  <div id="thumbnail">
+    <div><img src="denma_thumbnail_large.jpg" alt="" width="100%"></div>
+    <div id="detail">
+      <h3>덴마  <span id="yangganom">양가놈</span></h3>
+      <p class="descrip">너무 힘들어요</p>
+      <p class="descrip">옴니버스, 판타지 | 15세 이용가</p>
+      <ul id="btn_group">
+        <li class="btns"><img src="favorite.JPG" alt=""></li>
+        <li class="btns"><img src="first_epi.JPG" alt=""></li>
+        <li class="btns"><img src="otherwork.JPG" alt=""></li>
+        <li>  </li>
+        <li class="btns"><img src="heart.JPG" alt=""><span id="favor_num">99,999+</span></li>
+      </ul>
+    </div>
+  </div>
+  <div class="image_group">
+    <div class="image_group"><img src="denma_image_1.jpg" alt="" width="690px" class="denma_image"></div>
+    <div class="image_group"><img src="denma_image_2.jpg" alt="" width="690px" class="denma_image"></div>
+    <div class="image_group"><img src="denma_image_3.jpg" alt="" width="690px" class="denma_image"></div>
+    <div class="image_group"><img src="denma_image_4.jpg" alt="" width="690px" class="denma_image"></div>
+  </div>
   <div id="main_area">
     <div id="content_area">
-      <div id="day_select">
-        <div class="someday">요일전체</div>
-        <div class="someday">월요웹툰</div>
-        <div class="someday">화요웹툰</div>
-        <div class="someday">수요웹툰</div>
-        <div class="someday">목요웹툰</div>
-        <div id="allday">금요웹툰</div>
-        <div class="someday">토요웹툰</div>
-        <div class="someday">일요웹툰</div>
-      </div>
-      <div id="notice_area">
-        <div><img src="notice.JPG" alt="" height="50%"></div>
-        <div id="notice_text">&#60;덴마&#62; 다음 화는 언젠가 연재될 예정입니다. 양해 부탁드립니다.</div>
-      </div>
-      <div id="thumbnail">
-        <div><img src="denma_thumbnail.jpg" alt="" width="100%"></div>
-        <div id="detail">
-          <h2>덴마  <span id="yangganom">양가놈</span></h2>
-          <p class="descrip">너무 힘들어요</p>
-          <p class="descrip">옴니버스, 판타지 | 15세 이용가</p>
-          <ul id="btn_group">
-            <li class="btns"><img src="favorite.JPG" alt=""></li>
-            <li class="btns"><img src="first_epi.JPG" alt=""></li>
-            <li class="btns"><img src="otherwork.JPG" alt=""></li>
-            <li>  </li>
-            <li class="btns"><img src="heart.JPG" alt=""><span id="favor_num">99,999+</span></li>
-          </ul>
-        </div>
-      </div>
       <div id="list_label">
         <div>이미지</div>
         <div>제목</div>
@@ -81,8 +83,8 @@
       </div>
       <div id="actual_list">
         <div class="episode">
-          <div><a href="denma_episode.html"><img src="epi1.jpg" alt="" width="80%"></a></div>
-          <div class="title_epi"><a href="denma_episode.html" id="link">3-388화 2.에필로그(3-14)</a></div>
+          <div><img src="epi1.jpg" alt="" width="80%"></div>
+          <div class="title_epi">3-388화 2.에필로그(3-14)</div>
           <div class="remain"><img src="rating.JPG" alt=""></div>
           <div class="remain">2019.10.31</div>
         </div>
@@ -157,9 +159,7 @@
       </div>
     </div>
     <div id="side_area">
-      <div id="upload_btn"><img src="upload_btn.JPG" alt="" width="100%"></div>
-      <div><img src="big_ad1.jpg" alt="" width="100%"></div>
-      <div><img src="big_ad2.JPEG" alt="" width="100%"></div>
+      <div><img src="big_ad1.jpg" alt="" width="100%"><img src="big_ad2.JPEG" alt="" width="100%"></div>
       <div id="hotrank">
         <div id="hot_image"><img src="hot.gif" alt=""></div>
         <div id="arrange">
